@@ -186,13 +186,35 @@ footer a{color:#a8937f}
  .trilho{padding-left:max(18px,calc((100vw - 1100px)/2 + 18px))}
  .cab h2{font-size:40px}
  .card-prod{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:28px;gap:36px}
- .vids{grid-template-columns:repeat(4,1fr);gap:16px}
+ .vids{grid-template-columns:repeat(3,1fr);gap:16px}
  .bloco{grid-template-columns:1fr 1fr}
  .bloco.inv .img{order:2}
  .bloco .txt{padding:36px 40px}
  .bcard{grid-template-columns:1fr 1fr;align-items:center;padding:28px 34px}
  .bcard.inv .img{order:2}
 }
+
+/* montana e sintético */
+.mats{background:#fff;padding:52px 0 56px}
+.mats .vids{max-width:560px;margin:0 auto}
+.mats .vcard{border:1px solid var(--borda)}
+.mats .vcard b{font-size:13px}
+
+.tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px auto 0;max-width:560px}
+.tags span{background:var(--cre2);border:1px solid var(--borda);border-radius:20px;padding:7px 13px;font-size:13px;font-weight:600;color:#3d2b1f}
+/* renda extra */
+.renda{background:var(--cre);padding:52px 0 58px}
+.renda .cab h2 span{color:var(--ver)}
+.tab-r{max-width:560px;margin:0 auto;background:#fff;border:1px solid var(--borda);border-radius:12px;overflow:hidden}
+.tab-r .l{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:6px;padding:13px 14px;border-top:1px solid var(--borda);font-size:14px;align-items:center}
+.tab-r .l:first-child{border-top:0;background:var(--esc);color:#fff;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.tab-r .l b{font-weight:700}
+.tab-r .v{color:var(--ver);font-weight:800}
+.tab-r .c{color:var(--sub)}
+.renda .nota{text-align:center;font-size:12px;color:var(--sub);margin-top:10px}
+.renda .mini{max-width:560px;margin:22px auto 0}
+.renda .mini li svg{color:var(--ver)}
+@media(min-width:860px){.mats .vids{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -208,7 +230,7 @@ footer a{color:#a8937f}
   <div class="wrap grid">
     <div class="h-topo">
       <h1>Não Era a Sua Habilidade. <span>Era o Molde.</span></h1>
-      <p class="lead">180+ moldes de couro para imprimir, com <b>cada peça identificada e medida</b>, para a sua primeira carteira sair com acabamento de quem já fez cinquenta.</p>
+      <p class="lead">180+ moldes para imprimir, com <b>cada peça identificada e medida</b>, para você fazer carteiras, porta-cartões e bolsas com cara de loja e <b>lucrar com cada peça que vender</b>.</p>
     </div>
     <div class="foto">
       <div class="mold"><img src="img/capa-720.webp?v=2" srcset="img/capa-480.webp?v=2 480w, img/capa-720.webp?v=2 720w, img/capa-1000.webp?v=2 1000w" sizes="(min-width:900px) 475px, calc(100vw - 40px)" alt="180+ Moldes de Couro, edição 2026" width="1000" height="1000" fetchpriority="high"></div>
@@ -216,11 +238,11 @@ footer a{color:#a8937f}
     </div>
     <div class="h-base">
       <ul class="check">
-        <li><span><b>180+ moldes</b>: bolsas, mochilas, carteiras e acessórios</span></li>
+        <li><span><b>180+ moldes</b>: carteiras, porta-cartões, bolsas e necessaires</span></li>
         <li><span><b>Cada peça identificada</b>: G1, G2, G3, com medidas exatas em mm e cm</span></li>
-        <li><span><b>Lista de materiais em cada projeto</b>: zíper, rebites, espessura do couro</span></li>
-        <li><span><b>Moldes prontos para imprimir</b> em folhas A4, A3 e A1</span></li>
-        <li><span><b>Licença comercial</b>: venda as peças que você fizer e fique com todo o lucro</span></li>
+        <li><span><b>Serve em couro, montana e sintético</b>: à mão ou na máquina de casa</span></li>
+        <li><span><b>Prontos para imprimir</b> no A4, na impressora de casa</span></li>
+        <li><span><b>Lucre com o que fizer</b>: venda no Instagram, na Shopee ou na feira</span></li>
       </ul>
       <a href="#oferta" class="btn">QUERO MEUS MOLDES AGORA ↓</a>
       <p class="prova">👥 +2.459 artesãos em todo o Brasil</p>
@@ -253,6 +275,8 @@ footer a{color:#a8937f}
       <div class="vcard"><video data-src="vid/v25.mp4" data-poster="vid/v25.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Pedro H.<span class="uf">SP</span></b><small>✔ Cliente verificado</small></div></div>
       <div class="vcard"><video data-src="vid/v26.mp4" data-poster="vid/v26.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Thiago B.<span class="uf">RJ</span></b><small>✔ Cliente verificado</small></div></div>
       <div class="vcard"><video data-src="vid/v27.mp4" data-poster="vid/v27.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Diego C.<span class="uf">PR</span></b><small>✔ Cliente verificado</small></div></div>
+      <div class="vcard"><video data-src="vid/m1.mp4" data-poster="vid/m1.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Camila S.<span class="uf">BA</span></b><small>✔ Cliente verificado</small></div></div>
+      <div class="vcard"><video data-src="vid/m2.mp4" data-poster="vid/m2.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Juliana F.<span class="uf">GO</span></b><small>✔ Cliente verificado</small></div></div>
     </div>
   </div>
 </section>
@@ -270,11 +294,11 @@ footer a{color:#a8937f}
       <div class="img"><img src="img/categorias-720.webp?v=2" srcset="img/categorias-480.webp?v=2 480w, img/categorias-720.webp?v=2 720w" sizes="(min-width:900px) 532px, calc(100vw - 36px)" alt="Bolsas, mochilas, carteiras e acessórios de couro prontos" loading="lazy" width="900" height="900"></div>
       <div class="txt">
         <h3>180+ Moldes para Tudo o que <span>Você Quer Fazer</span></h3>
-        <p>Do seu primeiro porta-cartões a uma <b>bolsa de viagem</b> completa. Uma coleção cobre tudo.</p>
+        <p>Do seu primeiro <b>porta-cartões</b> à bolsa completa. As peças que mais vendem estão todas aqui.</p>
         <ul class="mini">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a3 3 0 016 0v2"/></svg><span><b>Bolsas e mochilas</b>: tote, transversal, a tiracolo, bolsa de viagem</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg><span><b>Carteiras e itens pequenos</b>: carteira dobrável, porta-cartões, capa para CNH</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg><span><b>Acessórios</b>: cintos, bonés, capas de celular e de óculos</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a3 3 0 016 0v2"/></svg><span><b>Carteiras e porta-cartões</b>: carteira dobrável, slim, porta-cartões e carteira que cabe RG e CNH</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg><span><b>Bolsas e necessaires</b>: tote, transversal, a tiracolo, mochila e necessaire</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg><span><b>Acessórios</b>: cintos, chaveiros, capas de celular e de óculos</span></li>
         </ul>
       </div>
     </div>
@@ -287,7 +311,7 @@ footer a{color:#a8937f}
         <ul class="mini">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span><b>G1, G2, G3</b>: ligados aos passos de montagem</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg><span><b>Medidas exatas em mm e cm</b> em cada peça</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span><b>Lista de materiais</b>: espessura do couro, zíperes, rebites</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span><b>Lista de materiais</b>: espessura do couro ou da montana, zíperes, rebites</span></li>
         </ul>
       </div>
     </div>
@@ -313,12 +337,24 @@ footer a{color:#a8937f}
         <ul class="mini">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V3h12v6M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="7"/></svg><span><b>A4</b> para qualquer impressora de casa</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg><span><b>A3 e A1</b> para peças grandes numa folha só, na gráfica ou plotagem</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span><b>Pronto para usar</b>: imprima em 100%, recorte e comece a cortar o couro</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span><b>Pronto para usar</b>: imprima em 100%, recorte e comece a cortar</span></li>
         </ul>
       </div>
     </div>
 
     <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO COMEÇAR A CORTAR ›</a></div>
+  </div>
+</section>
+
+<!-- MONTANA E SINTÉTICO -->
+<section class="mats">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo">Couro, montana ou sintético</span>
+      <h2>Serve no Material que <span>Você Já Tem em Casa</span></h2>
+      <p>Cada molde vem com a linha de costura à mão e a linha de corte com margem para a <b>máquina doméstica</b>.</p>
+    </div>
+    <div class="tags"><span>Couro legítimo</span><span>Montana</span><span>Couro sintético</span><span>À mão</span><span>Máquina doméstica</span></div>
   </div>
 </section>
 
@@ -341,6 +377,32 @@ footer a{color:#a8937f}
     <div class="print"><img data-src="dep/d7-520.webp?v=2" data-srcset="dep/d7-360.webp?v=2 360w, dep/d7-520.webp?v=2 520w" sizes="(min-width:900px) 260px, min(62vw,250px)" decoding="async" alt="Depoimento de cliente 7" width="660" height="1173" loading="lazy"></div>
   </div>
   <p class="dica">← arraste para ver mais →</p>
+</section>
+
+<!-- RENDA EXTRA -->
+<section class="renda">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo">Renda extra em casa</span>
+      <h2>Cada Peça que Você Faz <span>Pode Virar Lucro</span></h2>
+      <p>Peça com acabamento de loja vende por preço de loja. Veja quanto custa fazer e por quanto as peças são vendidas:</p>
+    </div>
+    <div class="tab-r">
+      <div class="l"><span>Peça</span><span>Material</span><span>Vende por</span></div>
+      <div class="l"><b>Porta-cartões em couro</b><span class="c">R$ 9,70</span><span class="v">R$ 47</span></div>
+      <div class="l"><b>Carteira de couro</b><span class="c">R$ 27,40</span><span class="v">R$ 127</span></div>
+      <div class="l"><b>Necessaire em montana</b><span class="c">R$ 13,60</span><span class="v">R$ 64</span></div>
+      <div class="l"><b>Bolsa transversal de couro</b><span class="c">R$ 83,90</span><span class="v">R$ 247</span></div>
+    </div>
+    <p class="nota">Valores de referência. Variam conforme o material e a sua região.</p>
+    <ul class="mini">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Venda onde quiser</b>: Instagram, Shopee, Elo7, feira ou por encomenda</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Sem loja e sem máquina industrial</b>: dá para começar na mesa da cozinha</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>Tabela de custo e preço</b> em cada projeto, para você saber quanto cobrar</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span><b>O lucro é todo seu</b>: venda quantas peças quiser</span></li>
+    </ul>
+    <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO COMEÇAR A LUCRAR ›</a></div>
+  </div>
 </section>
 
 <!-- BONUS -->
@@ -437,11 +499,14 @@ footer a{color:#a8937f}
     <div class="lista">
       <details><summary>É um produto físico ou digital?</summary><p>100% digital. Depois da compra você recebe no seu e-mail o acesso a todos os moldes. Sem frete. Imprima em casa ou abra em qualquer aparelho.</p></details>
       <details><summary>Preciso ter experiência?</summary><p>Não. Cada molde tem as peças identificadas, a lista de materiais e os passos numerados, além da Masterclass de Costura para guiar os seus primeiros projetos.</p></details>
-      <details><summary>Posso vender o que eu fizer?</summary><p>Sim. A licença comercial está inclusa: você pode vender as peças que fizer no Instagram, na Shopee, no Elo7, em feiras ou na sua loja, sem pagar royalties e ficando com todo o lucro.</p></details>
+      <details><summary>Serve para montana e couro sintético?</summary><p>Serve. Cada molde tem duas linhas: a de costura à mão, para couro legítimo, e a de corte com margem, para montana e sintético costurados na máquina. A lista de materiais de cada projeto diz a espessura indicada para cada um.</p></details>
+      <details><summary>Dá para costurar na máquina doméstica?</summary><p>Dá. Para montana e sintético, a máquina de casa resolve com agulha e linha certas, que vêm indicadas em cada projeto. Para couro legítimo, você costura à mão seguindo as marcações de furo do molde.</p></details>
+      <details><summary>Quanto custa fazer uma peça e por quanto vender?</summary><p>Cada projeto traz uma tabela de referência com o custo do material e o preço de venda sugerido. Uma carteira de couro sai por cerca de R$ 27,40 de material e é vendida por volta de R$ 127. Os valores variam conforme o material e a sua região.</p></details>
+      <details><summary>Posso vender o que eu fizer?</summary><p>Pode, e é para isso que muita gente compra. Venda as peças que fizer no Instagram, na Shopee, no Elo7, em feiras ou por encomenda, e o lucro é todo seu.</p></details>
       <details><summary>Que impressora eu preciso?</summary><p>Qualquer impressora de casa. Imprima em 100% no A4 e confira o quadrado de escala na folha. Os arquivos A3 e A1 estão lá se você preferir imprimir numa gráfica.</p></details>
       <details><summary>Os moldes têm medidas?</summary><p>Sim, em cada peça, em milímetros e centímetros.</p></details>
       <details><summary>Em quais tamanhos de folha vêm os moldes?</summary><p>Os moldes vêm prontos para imprimir em A4, A3 e A1. Use o A4 na impressora de casa e os tamanhos maiores numa gráfica.</p></details>
-      <details><summary>Quantos moldes são exatamente?</summary><p>180+, entre bolsas, mochilas, carteiras e acessórios.</p></details>
+      <details><summary>Quantos moldes são exatamente?</summary><p>180+, entre carteiras, porta-cartões, bolsas, necessaires, mochilas e acessórios.</p></details>
       <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Se não gostar, é só pedir pelo e-mail de suporte e devolvemos 100% do seu dinheiro.</p></details>
     </div>
     <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO MEUS MOLDES AGORA ›</a></div>
@@ -463,7 +528,7 @@ footer a{color:#a8937f}
   <div>
     <h3>180+ Moldes de Couro</h3>
     <ul class="feat">
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4h7a3 3 0 013 3v13a2 2 0 00-2-2H2zM22 4h-7a3 3 0 00-3 3v13a2 2 0 012-2h8z"/></svg><span><b>180+ moldes para imprimir</b>: bolsas, mochilas, carteiras, acessórios</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4h7a3 3 0 013 3v13a2 2 0 00-2-2H2zM22 4h-7a3 3 0 00-3 3v13a2 2 0 012-2h8z"/></svg><span><b>180+ moldes para imprimir</b>: carteiras, porta-cartões, bolsas, acessórios</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span><b>Cada peça identificada</b> no sistema G1, G1a, G1b</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg><span><b>Medidas exatas</b> em milímetros e centímetros</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span><b>Lista de materiais</b> em cada projeto</span></li>
@@ -471,7 +536,7 @@ footer a{color:#a8937f}
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V3h12v6"/><rect x="6" y="14" width="12" height="7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/></svg><span><b>Arquivos A4, A3 e A1</b> para imprimir em casa ou na gráfica</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 12h16M12 4v16"/></svg><span><b>Quadrado de escala</b> em cada folha: imprima certo na primeira vez</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0114 0M17 11a3 3 0 100-6M22 21a6 6 0 00-4-5.6"/></svg><span><b>Para iniciantes</b>, e ótimo para quem já tem experiência</span></li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 6.5C16 5 14.3 4.2 12 4.2c-2.8 0-4.6 1.3-4.6 3.3 0 4.4 9.4 2.2 9.4 6.9 0 2-1.9 3.4-4.8 3.4-2.5 0-4.3-.9-5.3-2.6"/></svg><span><b>Licença comercial</b>: venda as peças que fizer e fique com todo o lucro</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 6.5C16 5 14.3 4.2 12 4.2c-2.8 0-4.6 1.3-4.6 3.3 0 4.4 9.4 2.2 9.4 6.9 0 2-1.9 3.4-4.8 3.4-2.5 0-4.3-.9-5.3-2.6"/></svg><span><b>Lucre com cada peça</b>: venda o que fizer e fique com todo o lucro</span></li>
     </ul>
     <div class="caixa-bonus">
       <div class="topo"><span>+3 BÔNUS</span><em>GRÁTIS SÓ NA BLACK FRIDAY</em></div>
