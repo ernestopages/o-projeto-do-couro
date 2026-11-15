@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>180+ Moldes de Couro | O Projeto do Couro</title>
+<meta name="description" content="180+ moldes de couro para imprimir: bolsas, mochilas, carteiras e acessórios. Cada peça identificada e medida em mm.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/capa.webp">
+<style>
+:root{--esc:#1e140e;--esc2:#120a05;--esc3:#2a1d15;--lar:#b5622a;--lar2:#c8722a;--lar3:#e39a5c;--cre:#fbf6ef;--cre2:#f5ede0;--txt:#1e140e;--sub:#6e5a4a;--ver:#2e8b3d;--borda:#e7d9c6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;color:var(--txt);background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%;height:auto}
+h1,h2,h3{font-family:'Archivo',sans-serif;line-height:1.08;letter-spacing:-.01em}
+b,strong{font-weight:700}
+.wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+.selo{display:inline-flex;align-items:center;gap:6px;background:var(--lar);color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:5px}
+.selo.esc{background:var(--esc)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--lar);color:#fff;text-decoration:none;font-weight:700;font-size:16px;padding:17px 28px;border-radius:9px;box-shadow:0 6px 18px rgba(181,98,42,.35);transition:transform .15s,background .15s;text-align:center}
+.btn:hover{background:var(--lar2)}
+.btn.full{width:100%;white-space:nowrap;padding:17px 10px;font-size:clamp(13.5px,4.3vw,16px)}
+.btn{animation:pulsa 1.8s ease-in-out infinite}
+@keyframes pulsa{0%,100%{transform:scale(1);box-shadow:0 6px 18px rgba(181,98,42,.35),0 0 0 0 rgba(227,154,92,.55)}50%{transform:scale(1.035);box-shadow:0 8px 22px rgba(181,98,42,.45),0 0 0 11px rgba(227,154,92,0)}}
+@media(prefers-reduced-motion:reduce){.btn{animation:none}}
+/* moldura dourada para imagens de fundo escuro */
+.mold{padding:2.5px;border-radius:18px;background:linear-gradient(135deg,#f0d49a 0%,#b5622a 35%,#f0d49a 62%,#8a4a1e 100%);box-shadow:0 10px 30px rgba(30,20,14,.28)}
+.mold img{border-radius:15.5px;background:#0b0603;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+
+/* barra black friday */
+.barra{background:#000;color:#fff;font-size:13px;text-align:center;padding:9px 12px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px}
+.barra .bf{background:var(--lar);color:#fff;font-weight:800;font-size:11px;letter-spacing:.06em;padding:3px 8px;border-radius:4px}
+.barra .lar{color:var(--lar3);font-weight:700}
+.barra .tempo{font-variant-numeric:tabular-nums;font-weight:700;background:#fff;color:#000;padding:2px 7px;border-radius:4px}
+
+/* hero */
+.hero{padding:20px 0 22px;background:linear-gradient(180deg,var(--cre) 0%,#fff 100%);text-align:center}
+.hero .grid{display:grid;gap:22px;align-items:center;grid-template-areas:"topo" "foto" "base"}
+.hero .h-topo{grid-area:topo}.hero .foto{grid-area:foto}.hero .h-base{grid-area:base}
+.hero h1{font-size:36px;font-weight:900;margin:0 0 12px}
+.hero h1 span{color:var(--lar);display:block}
+.hero .lead{font-size:14.5px;color:#3d2b1f;margin:0 auto;max-width:560px}
+.check{list-style:none;display:grid;gap:9px;margin:0 auto 22px;max-width:520px;text-align:left}
+.check li{display:flex;gap:10px;font-size:14.5px;color:#3d2b1f}
+.check li:before{content:"";flex:0 0 18px;height:18px;margin-top:2px;border-radius:50%;background:var(--ver) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/11px no-repeat}
+.check li b{color:var(--txt)}
+.prova{font-size:12.5px;color:var(--sub);margin-top:12px;display:flex;align-items:center;justify-content:center;gap:6px}
+.hero .foto{position:relative;max-width:480px;margin:0 auto;width:100%;padding-bottom:14px}
+.pill{position:absolute;left:50%;bottom:0;transform:translateX(-50%);background:var(--esc);color:#fff;font-size:12px;font-weight:600;padding:7px 14px;border-radius:30px;white-space:nowrap}
+.pill i{color:#f5b301;font-style:normal;letter-spacing:1px}
+
+/* produto */
+.produto{padding:28px 0 52px}
+.cab{text-align:center;max-width:720px;margin:0 auto 28px}
+.cab h2{font-size:30px;font-weight:800;margin:14px 0 10px}
+.cab h2 span,.bloco h3 span,.gar h2 span,.faq .cab h2 span{color:var(--lar)}
+.bonus .cab h2 span{color:var(--lar3)}
+.cab p{color:var(--sub);font-size:15px}
+.card-prod{border:1.5px solid #c9a789;border-radius:16px;padding:18px;display:grid;grid-template-columns:minmax(0,1fr);gap:24px;background:#fff}
+.card-prod>div{min-width:0}
+.gal-main{padding:2.5px;border-radius:16px;background:linear-gradient(135deg,#f0d49a 0%,#b5622a 35%,#f0d49a 62%,#8a4a1e 100%);box-shadow:0 8px 24px rgba(30,20,14,.25);aspect-ratio:1/1}
+.gal-main img{width:100%;height:100%;object-fit:cover;border-radius:13.5px;background:#0b0603}
+.thumbs{display:flex;justify-content:center;gap:9px;margin-top:12px}
+.thumbs button{flex:1;max-width:76px;border:2px solid #d9c3a8;border-radius:10px;overflow:hidden;padding:0;cursor:pointer;background:#0b0603;aspect-ratio:1/1;opacity:.75}
+.thumbs button.on{border-color:var(--lar);opacity:1;box-shadow:0 0 0 2px rgba(181,98,42,.25)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.card-prod h3{font-size:22px;text-align:center;margin-bottom:14px}
+.feat{list-style:none;display:grid;gap:9px;margin-bottom:18px}
+.feat li{display:flex;gap:10px;font-size:14px;color:#3d2b1f}
+.feat li svg{flex:0 0 17px;height:17px;margin-top:2px;color:var(--lar)}
+.feat li b{color:var(--lar)}
+.caixa-bonus{background:var(--esc2);border-radius:12px;padding:14px 16px;color:#fff;margin-bottom:16px}
+.caixa-bonus .topo{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px}
+.caixa-bonus .topo span{font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--lar3)}
+.caixa-bonus .topo em{font-style:normal;font-size:10px;font-weight:700;letter-spacing:.05em;background:#f2cfa3;color:var(--esc);padding:3px 7px;border-radius:4px}
+.caixa-bonus .it{display:flex;gap:12px;align-items:center;padding:9px 0;border-top:1px solid rgba(255,255,255,.1);font-size:14px;font-weight:700}
+.caixa-bonus .it:first-of-type{border-top:0}
+.caixa-bonus .it small{color:var(--lar3);font-weight:500;font-size:11px;width:16px}
+.preco{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;margin:4px 0 14px;text-align:center}
+.preco s{color:#d62828;font-size:17px;font-weight:700;text-decoration-thickness:2px}
+.preco strong{font-family:'Archivo';font-size:46px;line-height:1.05;color:#1f9d3a;font-weight:900}
+.pag{display:flex;flex-wrap:nowrap;justify-content:center;gap:5px;margin:14px 0 10px}
+.pag img{flex:1 1 0;min-width:0;max-width:56px;height:auto;aspect-ratio:780/500;border-radius:4px;border:1px solid #e2d6c6;background:#fff}
+.seguro{text-align:center;font-size:12px;color:var(--sub)}
+
+/* depoimentos */
+.depo{background:var(--esc);color:#fff;padding:52px 0 58px}
+.depo .cab h2{color:#fff}
+.depo .cab h2 span{color:var(--lar3)}
+.depo .cab p{color:#cdbba9}
+.estrelas{color:#f5b301;letter-spacing:3px;font-size:16px}
+.vids{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.vcard{background:#fff;border-radius:10px;overflow:hidden;color:var(--txt)}
+.vcard video{width:100%;aspect-ratio:9/13;object-fit:cover;background:#2a1d15}
+.vcard .inf{padding:10px 12px 12px}
+.vcard .estrelas{font-size:11px;letter-spacing:1px}
+.vcard b{display:block;font-size:13.5px;margin:3px 0 2px}
+.vcard small{font-size:11px;color:var(--ver);display:flex;align-items:center;gap:4px}
+.uf{display:inline-block;background:var(--lar);color:#fff;font-size:10px;font-weight:800;padding:1px 6px;border-radius:4px;margin-left:4px;vertical-align:1px;letter-spacing:.04em}
+
+/* carrossel de prints */
+.prints{background:var(--cre2);padding:52px 0 54px;overflow:hidden}
+.prints .cab h2 span{color:var(--lar)}
+.trilho{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;padding:6px 18px 10px;scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;cursor:grab;touch-action:pan-x pan-y;overscroll-behavior-x:contain}
+.trilho::-webkit-scrollbar{display:none}
+.trilho.arrasta{cursor:grabbing}
+.print{flex:0 0 auto;width:min(62vw,250px);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 6px 20px rgba(30,20,14,.18);border:1px solid #e3d3bd;user-select:none}
+.print img{width:100%;height:auto;aspect-ratio:660/1173;pointer-events:none;-webkit-user-drag:none}
+.prints .dica{text-align:center;font-size:12px;color:var(--sub);margin-top:6px}
+
+/* garantia */
+.gar{background:#fff;padding:48px 0 52px}
+.gar-box{max-width:760px;margin:0 auto;border:2px solid #d9b98f;border-radius:20px;background:linear-gradient(180deg,#fffaf2,#fbf1e2);padding:28px 20px 26px;text-align:center;box-shadow:0 8px 26px rgba(30,20,14,.07)}
+.selo7{width:112px;height:112px;margin:-70px auto 14px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f7dca6,#c8903f 60%,#9a6320);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#3a1f0b;box-shadow:0 8px 18px rgba(30,20,14,.3),inset 0 0 0 4px rgba(255,255,255,.35),inset 0 0 0 6px rgba(154,99,32,.5)}
+.selo7 b{font-family:'Archivo';font-size:40px;line-height:1;font-weight:900}
+.selo7 small{font-size:11px;font-weight:800;letter-spacing:.12em}
+.gar h2{font-size:27px;font-weight:800;margin-bottom:10px}
+.gar p{font-size:15px;color:#3d2b1f;max-width:560px;margin:0 auto 14px}
+.gar .mini{max-width:420px;margin:0 auto;text-align:left}
+.gar .cta-c{padding-top:18px}
+
+/* o que vem dentro */
+.dentro{background:var(--cre);padding:52px 0 40px}
+.bloco{background:#fff;border-radius:16px;overflow:hidden;display:grid;margin-bottom:18px;box-shadow:0 2px 14px rgba(30,20,14,.05)}
+.bloco .img{background:#fff}
+.bloco .img img{width:100%;height:100%;object-fit:cover}
+.bloco .txt{padding:24px 22px 26px;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.bloco .mini{text-align:left}
+.bloco h3{font-size:24px;font-weight:800;margin-bottom:10px}
+.bloco p{font-size:14.5px;color:#3d2b1f;margin-bottom:14px}
+.mini{list-style:none;display:grid;gap:8px}
+.mini li{display:flex;gap:9px;font-size:13.5px;color:#3d2b1f}
+.mini li svg{flex:0 0 16px;height:16px;margin-top:2px;color:var(--lar)}
+.cta-c{text-align:center;padding:14px 0 6px}
+
+/* bonus */
+.bonus{background:var(--esc);color:#fff;padding:54px 0 58px}
+.bonus .cab h2{color:#fff}
+.bonus .cab p{color:#cdbba9}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid #7a4a2a;background:#2a1d15;color:#f2cfa3;font-size:11px;font-weight:700;letter-spacing:.06em;padding:7px 12px;border-radius:6px;margin-top:12px}
+.bcard{background:#2a1d15;border:1px solid #3d2b1f;border-radius:16px;padding:20px;display:grid;gap:14px;margin-bottom:16px;position:relative}
+.bcard .tags{display:flex;justify-content:space-between}
+.bcard .tags span{font-size:10.5px;font-weight:800;letter-spacing:.05em;padding:4px 8px;border-radius:4px;background:var(--lar)}
+.bcard .tags em{font-style:normal;font-size:10.5px;font-weight:800;padding:4px 8px;border-radius:4px;background:var(--ver)}
+.bcard .mold{width:100%;max-width:380px;margin:0 auto}
+.bcard .tx{text-align:center}
+.bcard .tx .mini{text-align:left}
+.bcard h3{font-size:22px;margin-bottom:6px}
+.bcard p{font-size:14px;color:#e6d6c4;margin-bottom:10px}
+.bcard .mini li{color:#f3e8dc}
+.bcard .mini li svg{color:var(--lar3)}
+.nota{text-align:center;font-size:12.5px;color:#cdbba9;margin-top:10px}
+
+/* faq */
+.faq{background:var(--cre);padding:52px 0 60px}
+.faq .lista{max-width:720px;margin:0 auto}
+.faq details{border-top:1px solid var(--borda);padding:16px 2px}
+.faq details:last-child{border-bottom:1px solid var(--borda)}
+.faq summary{list-style:none;cursor:pointer;font-weight:700;font-size:15px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";flex:0 0 22px;height:22px;border-radius:50%;background:#f2dcc6;color:var(--lar);display:flex;align-items:center;justify-content:center;font-weight:700}
+.faq details[open] summary:after{content:"−"}
+.faq details p{font-size:14px;color:#3d2b1f;margin-top:10px}
+footer{background:var(--esc2);color:#a8937f;font-size:12.5px;text-align:center;padding:24px 16px}
+footer a{color:#a8937f}
+
+@media(min-width:860px){
+ .hero{padding:50px 0 60px}
+ .hero{text-align:left;padding-top:36px}
+ .hero .lead{font-size:16px}
+ .produto{padding-top:40px}
+ .hero .grid{grid-template-columns:1.05fr 1fr;grid-template-areas:"topo foto" "base foto";column-gap:44px;row-gap:18px;align-items:start}
+ .hero .h-base{align-self:start}.hero .h-topo{align-self:end}
+ .hero .lead{margin:0}.check{margin:0 0 24px}.prova{justify-content:flex-start}
+ .hero h1{font-size:56px}
+ .bloco .txt{text-align:left}
+ .bcard .tx{text-align:left}
+ .print{width:260px}
+ .trilho{padding-left:max(18px,calc((100vw - 1100px)/2 + 18px))}
+ .cab h2{font-size:40px}
+ .card-prod{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:28px;gap:36px}
+ .vids{grid-template-columns:repeat(4,1fr);gap:16px}
+ .bloco{grid-template-columns:1fr 1fr}
+ .bloco.inv .img{order:2}
+ .bloco .txt{padding:36px 40px}
+ .bcard{grid-template-columns:1fr 1fr;align-items:center;padding:28px 34px}
+ .bcard.inv .img{order:2}
+}
+</style>
+</head>
+<body>
+
+<div class="barra">
+  <span class="bf">BLACK FRIDAY</span>
+  <span><span class="lar">180+ moldes</span> com 50% OFF</span>
+  <span>termina em <span class="tempo" id="tempo">00:00:00</span></span>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap grid">
+    <div class="h-topo">
+      <h1>Não Era a Sua Habilidade. <span>Era o Molde.</span></h1>
+      <p class="lead">180+ moldes de couro para imprimir, com <b>cada peça identificada e medida</b>, para a sua primeira carteira sair com acabamento de quem já fez cinquenta.</p>
+    </div>
+    <div class="foto">
+      <div class="mold"><img src="img/capa.webp" alt="180+ Moldes de Couro, edição 2026" width="1000" height="1000" fetchpriority="high"></div>
+      <span class="pill"><i>★★★★★</i> Nota 4,9 por +2.459 artesãos</span>
+    </div>
+    <div class="h-base">
+      <ul class="check">
+        <li><span><b>180+ moldes</b>: bolsas, mochilas, carteiras e acessórios</span></li>
+        <li><span><b>Cada peça identificada</b>: G1, G2, G3, com medidas exatas em mm e cm</span></li>
+        <li><span><b>Lista de materiais em cada projeto</b>: zíper, rebites, espessura do couro</span></li>
+        <li><span><b>Moldes prontos para imprimir</b> em folhas A4, A3 e A1</span></li>
+        <li><span><b>Licença comercial</b>: venda as peças que você fizer e fique com todo o lucro</span></li>
+      </ul>
+      <a href="#oferta" class="btn">QUERO MEUS MOLDES AGORA ↓</a>
+      <p class="prova">👥 +2.459 artesãos em todo o Brasil</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUTO / OFERTA -->
+<section class="produto" id="oferta">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo esc">✦ Edição 2026</span>
+      <h2>Tudo o que Você Precisa para Fazer <span>Peças de Couro com Cara de Profissional</span></h2>
+      <p>180+ moldes para imprimir. Cada peça medida. Venda o que você fizer e lucre com as suas peças.</p>
+    </div>
+    <div class="card-prod" data-oferta></div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depo">
+  <div class="wrap">
+    <div class="cab">
+      <div class="estrelas">★★★★★</div>
+      <h2>O que os Artesãos Estão <span>Fazendo de Verdade</span></h2>
+      <p>Projetos reais de clientes que compraram a coleção e começaram a costurar.</p>
+    </div>
+    <div class="vids">
+      <div class="vcard"><video data-src="vid/v24.mp4" poster="vid/v24.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Rafael M.<span class="uf">MG</span></b><small>✔ Cliente verificado</small></div></div>
+      <div class="vcard"><video data-src="vid/v25.mp4" poster="vid/v25.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Pedro H.<span class="uf">SP</span></b><small>✔ Cliente verificado</small></div></div>
+      <div class="vcard"><video data-src="vid/v26.mp4" poster="vid/v26.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Thiago B.<span class="uf">RJ</span></b><small>✔ Cliente verificado</small></div></div>
+      <div class="vcard"><video data-src="vid/v27.mp4" poster="vid/v27.jpg" muted loop playsinline preload="none"></video><div class="inf"><div class="estrelas">★★★★★</div><b>Diego C.<span class="uf">PR</span></b><small>✔ Cliente verificado</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- O QUE VEM DENTRO -->
+<section class="dentro">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo">O que vem dentro</span>
+      <h2>Tudo para Você Fazer com <span>Confiança</span></h2>
+      <p>Veja exatamente o que tem na coleção.</p>
+    </div>
+
+    <div class="bloco">
+      <div class="img"><img src="img/categorias.webp" alt="Bolsas, mochilas, carteiras e acessórios de couro prontos" loading="lazy" width="900" height="900"></div>
+      <div class="txt">
+        <h3>180+ Moldes para Tudo o que <span>Você Quer Fazer</span></h3>
+        <p>Do seu primeiro porta-cartões a uma <b>bolsa de viagem</b> completa. Uma coleção cobre tudo.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a3 3 0 016 0v2"/></svg><span><b>Bolsas e mochilas</b>: tote, transversal, a tiracolo, bolsa de viagem</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg><span><b>Carteiras e itens pequenos</b>: carteira dobrável, porta-cartões, capa para CNH</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg><span><b>Acessórios</b>: cintos, bonés, capas de celular e de óculos</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bloco inv">
+      <div class="img"><img src="img/etiquetas.webp" alt="Molde de carteira dobrável com peças G1, G2 e G3 medidas em mm" loading="lazy" width="900" height="900"></div>
+      <div class="txt">
+        <h3>Cada Peça Identificada. <span>Cada Corte Medido.</span></h3>
+        <p>Nada de adivinhar qual peça vai onde. Cada parte tem o seu código e o tamanho exato.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span><b>G1, G2, G3</b>: ligados aos passos de montagem</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg><span><b>Medidas exatas em mm e cm</b> em cada peça</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span><b>Lista de materiais</b>: espessura do couro, zíperes, rebites</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="img"><img src="img/passo-a-passo.webp" alt="Do molde impresso ao porta-cartões pronto em quatro passos" loading="lazy" width="900" height="900"></div>
+      <div class="txt">
+        <h3>Do Papel à <span>Peça Pronta</span></h3>
+        <p><b>Imprima, risque, corte e costure.</b> O molde pensa por você, você faz o trabalho manual.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6M9 13h6M9 17h4"/></svg><span><b>Passos numerados</b> em cada projeto</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 12h16M12 4v16"/></svg><span><b>Quadrado de escala</b> em cada folha para conferir a impressão</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg><span><b>Menos couro desperdiçado</b>: corte certo na primeira vez</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bloco inv">
+      <div class="img"><img src="img/formatos.webp" alt="Impressora imprimindo moldes nos formatos A4, A3 e A1" loading="lazy" width="900" height="900"></div>
+      <div class="txt">
+        <h3>Imprima em <span>Vários Formatos</span></h3>
+        <p>Escolha o tamanho que combina com você: imprima na <b>impressora de casa</b> ou leve o arquivo numa <b>gráfica</b>. Está tudo pronto para imprimir.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V3h12v6M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="7"/></svg><span><b>A4</b> para qualquer impressora de casa</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg><span><b>A3 e A1</b> para peças grandes numa folha só, na gráfica ou plotagem</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span><b>Pronto para usar</b>: imprima em 100%, recorte e comece a cortar o couro</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO COMEÇAR A CORTAR ›</a></div>
+  </div>
+</section>
+
+<!-- PRINTS DE CLIENTES -->
+<section class="prints">
+  <div class="wrap">
+    <div class="cab">
+      <div class="estrelas">★★★★★</div>
+      <h2>Eu Recebo Mensagens Como Essas <span>Todos os Dias</span></h2>
+      <p>Em breve, <b>será você</b> me mandando uma mensagem assim, mostrando a sua primeira peça pronta.</p>
+    </div>
+  </div>
+  <div class="trilho" id="trilho">
+    <div class="print"><img src="dep/d1.webp" alt="Depoimento de cliente 1" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d2.webp" alt="Depoimento de cliente 2" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d3.webp" alt="Depoimento de cliente 3" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d4.webp" alt="Depoimento de cliente 4" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d5.webp" alt="Depoimento de cliente 5" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d6.webp" alt="Depoimento de cliente 6" width="660" height="1173" loading="lazy"></div>
+    <div class="print"><img src="dep/d7.webp" alt="Depoimento de cliente 7" width="660" height="1173" loading="lazy"></div>
+  </div>
+  <p class="dica">← arraste para ver mais →</p>
+</section>
+
+<!-- BONUS -->
+<section class="bonus">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo">Bônus por tempo limitado</span>
+      <h2><span>+3 Bônus</span> Inclusos.<br>Não Vendidos Separadamente.</h2>
+      <p>Os três vêm <b>grátis</b> com a sua coleção de 180+ Moldes de Couro.</p>
+      <span class="chip">⏱ GRÁTIS ATÉ O FIM DA BLACK FRIDAY</span>
+    </div>
+
+    <div class="bcard">
+      <div class="tags"><span>BÔNUS #1</span><em>GRÁTIS</em></div>
+      <div class="img"><div class="mold"><img src="img/bonus-1.webp" alt="Bônus Guia de Escolha do Couro" loading="lazy" width="900" height="900"></div></div>
+      <div class="tx">
+        <h3>Guia de Escolha do Couro</h3>
+        <p>Saiba <b>qual couro comprar</b> antes de gastar um centavo.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Couro integral, curtido ao vegetal e ao cromo</b>: para que serve cada um</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Espessura certa</b> para cada projeto</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bcard inv">
+      <div class="tags"><span>BÔNUS #2</span><em>GRÁTIS</em></div>
+      <div class="img"><div class="mold"><img src="img/bonus-2.webp" alt="Bônus Masterclass de Costura" loading="lazy" width="900" height="900"></div></div>
+      <div class="tx">
+        <h3>Masterclass de Costura</h3>
+        <p><b>Os 5 pontos essenciais</b>, passo a passo.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Do ponto selado</b> ao acabamento de borda</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Erros comuns</b> e como evitar</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bcard">
+      <div class="tags"><span>BÔNUS #3</span><em>GRÁTIS</em></div>
+      <div class="img"><div class="mold"><img src="img/bonus-3.webp" alt="Bônus Lista de Fornecedores de Couro" loading="lazy" width="900" height="900"></div></div>
+      <div class="tx">
+        <h3>Lista de Fornecedores de Couro</h3>
+        <p>Saiba <b>onde comprar couro, ferragens e materiais</b> pagando menos.</p>
+        <ul class="mini">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Couro, ferragens, linhas e ferramentas</b>: onde encontrar cada um</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Melhor custo-benefício</b>: dicas para negociar preço e frete</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO OS MOLDES + OS BÔNUS ›</a></div>
+    <p class="nota">Os bônus são grátis só durante a Black Friday.</p>
+  </div>
+</section>
+
+<!-- PRODUTO 2 -->
+<section class="produto" id="oferta2">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo esc">✦ Edição 2026</span>
+      <h2>Tudo o que Você Precisa para Fazer <span>Peças de Couro com Cara de Profissional</span></h2>
+      <p>180+ moldes para imprimir. Cada peça medida. Venda o que você fizer e lucre com as suas peças.</p>
+    </div>
+    <div class="card-prod" data-oferta></div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="gar">
+  <div class="wrap">
+    <div class="gar-box">
+      <div class="selo7"><b>7</b><small>DIAS</small></div>
+      <h2>Garantia Incondicional de <span>7 Dias</span></h2>
+      <p>Faça o teste sem risco. Baixe os moldes, imprima e confira a qualidade. Se não gostar por qualquer motivo, é só pedir dentro de 7 dias e <b>devolvemos 100% do seu dinheiro</b>.</p>
+      <ul class="mini">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Sem perguntas</b> e sem burocracia</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Reembolso de 100%</b> pelo e-mail de suporte</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>O risco é todo nosso</b>, não seu</span></li>
+      </ul>
+      <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO TESTAR SEM RISCO ›</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <div class="cab">
+      <span class="selo">Dúvidas</span>
+      <h2>Tem Dúvidas? <span>A Gente Responde.</span></h2>
+      <p>Tudo o que você precisa saber antes de começar a cortar.</p>
+    </div>
+    <div class="lista">
+      <details><summary>É um produto físico ou digital?</summary><p>100% digital. Depois da compra você recebe no seu e-mail o acesso a todos os moldes. Sem frete. Imprima em casa ou abra em qualquer aparelho.</p></details>
+      <details><summary>Preciso ter experiência?</summary><p>Não. Cada molde tem as peças identificadas, a lista de materiais e os passos numerados, além da Masterclass de Costura para guiar os seus primeiros projetos.</p></details>
+      <details><summary>Posso vender o que eu fizer?</summary><p>Sim. A licença comercial está inclusa: você pode vender as peças que fizer no Instagram, na Shopee, no Elo7, em feiras ou na sua loja, sem pagar royalties e ficando com todo o lucro.</p></details>
+      <details><summary>Que impressora eu preciso?</summary><p>Qualquer impressora de casa. Imprima em 100% no A4 e confira o quadrado de escala na folha. Os arquivos A3 e A1 estão lá se você preferir imprimir numa gráfica.</p></details>
+      <details><summary>Os moldes têm medidas?</summary><p>Sim, em cada peça, em milímetros e centímetros.</p></details>
+      <details><summary>Em quais tamanhos de folha vêm os moldes?</summary><p>Os moldes vêm prontos para imprimir em A4, A3 e A1. Use o A4 na impressora de casa e os tamanhos maiores numa gráfica.</p></details>
+      <details><summary>Quantos moldes são exatamente?</summary><p>180+, entre bolsas, mochilas, carteiras e acessórios.</p></details>
+      <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Se não gostar, é só pedir pelo e-mail de suporte e devolvemos 100% do seu dinheiro.</p></details>
+    </div>
+    <div class="cta-c"><a href="#" class="btn" data-checkout>QUERO MEUS MOLDES AGORA ›</a></div>
+  </div>
+</section>
+
+<footer>© 2026 O Projeto do Couro · <a href="#">Termos e Políticas</a></footer>
+
+<template id="tpl-oferta">
+  <div>
+    <div class="gal-main"><img src="img/capa.webp" alt="180+ Moldes de Couro" width="1000" height="1000" loading="lazy"></div>
+    <div class="thumbs">
+      <button class="on" data-img="img/capa.webp"><img src="img/capa.webp" alt="" loading="lazy"></button>
+      <button data-img="img/capa-2.webp"><img src="img/capa-2.webp" alt="" loading="lazy"></button>
+      <button data-img="img/capa-3.webp"><img src="img/capa-3.webp" alt="" loading="lazy"></button>
+      <button data-img="img/capa-4.webp"><img src="img/capa-4.webp" alt="" loading="lazy"></button>
+    </div>
+  </div>
+  <div>
+    <h3>180+ Moldes de Couro</h3>
+    <ul class="feat">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4h7a3 3 0 013 3v13a2 2 0 00-2-2H2zM22 4h-7a3 3 0 00-3 3v13a2 2 0 012-2h8z"/></svg><span><b>180+ moldes para imprimir</b>: bolsas, mochilas, carteiras, acessórios</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span><b>Cada peça identificada</b> no sistema G1, G1a, G1b</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg><span><b>Medidas exatas</b> em milímetros e centímetros</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span><b>Lista de materiais</b> em cada projeto</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h6"/></svg><span><b>Montagem passo a passo</b>, numerada e em ordem</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V3h12v6"/><rect x="6" y="14" width="12" height="7"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/></svg><span><b>Arquivos A4, A3 e A1</b> para imprimir em casa ou na gráfica</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 12h16M12 4v16"/></svg><span><b>Quadrado de escala</b> em cada folha: imprima certo na primeira vez</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0114 0M17 11a3 3 0 100-6M22 21a6 6 0 00-4-5.6"/></svg><span><b>Para iniciantes</b>, e ótimo para quem já tem experiência</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 6.5C16 5 14.3 4.2 12 4.2c-2.8 0-4.6 1.3-4.6 3.3 0 4.4 9.4 2.2 9.4 6.9 0 2-1.9 3.4-4.8 3.4-2.5 0-4.3-.9-5.3-2.6"/></svg><span><b>Licença comercial</b>: venda as peças que fizer e fique com todo o lucro</span></li>
+    </ul>
+    <div class="caixa-bonus">
+      <div class="topo"><span>+3 BÔNUS</span><em>GRÁTIS SÓ NA BLACK FRIDAY</em></div>
+      <div class="it"><small>01</small>Guia de Escolha do Couro</div>
+      <div class="it"><small>02</small>Masterclass de Costura</div>
+      <div class="it"><small>03</small>Lista de Fornecedores de Couro</div>
+    </div>
+    <div class="preco"><s>de R$ 59,90</s><strong>R$ 29,90</strong></div>
+    <a href="#" class="btn full" data-checkout>QUERO MEUS MOLDES AGORA</a>
+    <div class="pag"><img src="img/pay/pix.svg" alt="Pix" width="56" height="36"><img src="img/pay/visa.svg" alt="Visa" width="56" height="36"><img src="img/pay/mastercard.svg" alt="Mastercard" width="56" height="36"><img src="img/pay/elo.svg" alt="Elo" width="56" height="36"><img src="img/pay/amex.svg" alt="American Express" width="56" height="36"><img src="img/pay/hipercard.svg" alt="Hipercard" width="56" height="36"></div>
+    <p class="seguro">🔒 Compra 100% segura · Garantia de 7 dias</p>
+  </div>
+</template>
+
+<script>
+// link do checkout da Payt (preencher)
+var CHECKOUT_URL = "#";
+(function(){
+  var tpl=document.getElementById('tpl-oferta');
+  document.querySelectorAll('[data-oferta]').forEach(function(box){
+    box.appendChild(tpl.content.cloneNode(true));
+    var main=box.querySelector('.gal-main img');
+    box.querySelectorAll('.thumbs button').forEach(function(b){
+      b.addEventListener('click',function(){
+        box.querySelectorAll('.thumbs button').forEach(function(x){x.classList.remove('on')});
+        b.classList.add('on');main.src=b.dataset.img;
+      });
+    });
+  });
+  document.querySelectorAll('[data-checkout]').forEach(function(a){a.href=CHECKOUT_URL});
+  // contagem até a meia-noite
+  var el=document.getElementById('tempo');
+  function tick(){var n=new Date(),f=new Date(n);f.setHours(24,0,0,0);var s=Math.max(0,Math.floor((f-n)/1000));
+    var h=String(Math.floor(s/3600)).padStart(2,'0'),m=String(Math.floor(s%3600/60)).padStart(2,'0'),ss=String(s%60).padStart(2,'0');el.textContent=h+':'+m+':'+ss}
+  tick();setInterval(tick,1000);
+  // carrossel de prints: anda sozinho, para quando a pessoa arrasta e retoma depois
+  var tr=document.getElementById('trilho');
+  if(tr){
+    var orig=[].slice.call(tr.children);
+    orig.forEach(function(c){var k=c.cloneNode(true);k.setAttribute('aria-hidden','true');tr.appendChild(k)});
+    var pos=0,last=0,parado=0,hover=false,drag=false,sx=0,sl=0,ready=false;
+    function meio(){var a=tr.children[0],b=tr.children[orig.length];return b.offsetLeft-a.offsetLeft}
+    function toque(){parado=performance.now()+2600}
+    ['touchstart','touchmove','touchend','wheel','pointerdown'].forEach(function(ev){tr.addEventListener(ev,toque,{passive:true})});
+    tr.addEventListener('mouseenter',function(){hover=true});
+    tr.addEventListener('mouseleave',function(){hover=false;drag=false;tr.classList.remove('arrasta');toque()});
+    tr.addEventListener('mousedown',function(e){drag=true;sx=e.pageX;sl=tr.scrollLeft;tr.classList.add('arrasta');toque()});
+    window.addEventListener('mouseup',function(){if(drag){drag=false;tr.classList.remove('arrasta');toque()}});
+    tr.addEventListener('mousemove',function(e){if(!drag)return;e.preventDefault();tr.scrollLeft=sl-(e.pageX-sx);toque()});
+    tr.addEventListener('scroll',function(){var m=meio();if(!m)return;if(tr.scrollLeft>=m){tr.scrollLeft-=m}else if(tr.scrollLeft<=0){tr.scrollLeft+=m}});
+    function anda(t){
+      var dt=Math.min(64,t-last);last=t;
+      if(!ready){ready=true;pos=tr.scrollLeft}
+      if(t>parado&&!hover&&!drag&&!document.hidden){
+        if(Math.abs(tr.scrollLeft-pos)>3&&parado>0){pos=tr.scrollLeft}
+        pos+=dt*0.04;var m=meio();if(m&&pos>=m)pos-=m;
+        tr.scrollLeft=Math.round(pos);
+      }else{pos=tr.scrollLeft}
+      requestAnimationFrame(anda);
+    }
+    requestAnimationFrame(anda);
+  }
+  // vídeos só carregam e tocam quando aparecem na tela (sempre mudos)
+  var vs=document.querySelectorAll('video[data-src]');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;
+      if(e.isIntersecting){if(!v.src){v.src=v.dataset.src}v.muted=true;var p=v.play();if(p&&p.catch)p.catch(function(){})}else{v.pause()}})},{rootMargin:'200px'});
+    vs.forEach(function(v){io.observe(v)});
+  }else{vs.forEach(function(v){v.src=v.dataset.src;v.muted=true;v.autoplay=true})}
+})();
+</script>
+</body>
+</html>
